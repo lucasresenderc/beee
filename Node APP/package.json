@@ -1,0 +1,28 @@
+{
+  "name": "arduino-bee",
+  "version": "1.0.0",
+  "description": "Controla um conjunto de 12 leds em diferentes intensidades",
+  "main": "beee.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "open": "0.0.5",
+    "socket.io": "^1.4.6",
+    "mysql": "^1.0.0",
+    "open": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "arduino",
+    "rgb",
+    "johnny",
+    "five",
+    "led",
+    "websockets",
+    "hardware"
+  ],
+  "author": "Lucas Resende (DMAT - UFMG) 2016",
+  "license": "GPL"
+}

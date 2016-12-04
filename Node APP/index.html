@@ -1,0 +1,164 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html lang='pt-br'>
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+	<meta name='description' content=''> <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+	<title>Beee | Executando</title>
+	<link rel="stylesheet" type="text/css" href="./green.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+</head>
+<body>
+
+<div id="rotinatitle-cnt">
+	<span id="rc-nome"></span>
+	<input type="button" class="rotina-bt off" id="rc-parar" value="PARAR">
+	<input type="button" class="rotina-bt off" id="rc-restart" value="REINICIAR">
+</div>
+
+<div id="title-cnt">
+	<div id="beee">beee</div>
+	<div id="t-desc">Gerenciador de rotinas</div>
+</div>
+
+<div id="play-cnt" class="off">
+	<div id="load-alert">CONECTANDO<span id="la-pontos">...</span></div>
+	<div id="center">
+
+		<div class="etapa etapa-marco">
+			COMEÇO
+		</div>
+
+		<div class="trans t-left t-center">
+			<div class="trans-opt t-left">
+				<div class="tr-ball"></div>
+				<div class="tr-line"></div>
+				<div class="tr-run tr-bt using">COMEÇAR</div>
+				<div class="tr-ball"></div>
+			</div>
+		</div>
+
+		<div class="etapa off" data-etapa="0" id="etapa-clone">
+			<div class="etapa-img-cnt">
+				<div class="etapa-img-led r1"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>1</div>
+				<div class="etapa-img-led r2"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>2</div>
+				<div class="etapa-img-led r3"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>3</div>
+				<div class="etapa-img-led r4"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>4</div>
+				<div class="etapa-img-led r5"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>5</div>
+				<div class="etapa-img-led r6"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>6</div>
+				<div class="etapa-img-led r7"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>7</div>
+				<div class="etapa-img-led r8"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>8</div>
+				<div class="etapa-img-led r9"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>9</div>
+				<div class="etapa-img-led ra"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>a</div>
+				<div class="etapa-img-led rb"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>b</div><div class="etapa-img-led rc"><div class="etapa-img-led-s1"><div class="etapa-img-led-s2"></div></div>c</div>
+			</div>
+			<div class="etapa-int-cnt">
+				<div class="etapa-int">
+					<div class="etapa-int-l">L1</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">L2</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">L3</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">L4</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">L5</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">L6</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">L7</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">L8</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">L9</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">La</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">Lb</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+				<div class="etapa-int">
+					<div class="etapa-int-l">Lc</div>
+					<input class="etapa-int-i" type="number" value="255">
+				</div>
+			</div>
+		</div>
+
+		<div class="trans t-left t-center off" id="trans-click" data-etapa="0">
+			<div class="trans-opt t-left">
+				<div class="tr-ball"></div>
+				<div class="tr-line"></div>
+				<div class="tr-run tr-bt">AVANÇAR</div>
+				<div class="tr-ball"></div>
+			</div>
+		</div>
+
+        <div class="trans t-left t-center off" id="trans-time" data-etapa="0">
+            <div class="trans-opt t-left">
+                <div class="tr-ball"></div>
+                <div class="tr-line"></div>
+                <div class="tr-run tr-time">
+                    <div class="time-text">4000 ms</div>
+                    <div class="time-count"></div>
+                </div>
+                <div class="tr-ball"></div>
+            </div>
+        </div>
+
+		<div class="etapa etapa-marco off" id="etapa-final">
+			FIM
+		</div>
+	</div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="./client.js"></script>
+<script src="./jq.js"></script>
+
+<script type="text/javascript">
+
+function editarpontos(){
+
+	if( $('#la-pontos').text() == '...' ){
+		$('#la-pontos').text('');
+	} else if( $('#la-pontos').text() == '' ){
+		$('#la-pontos').text('.');
+	} else if( $('#la-pontos').text() == '.' ){
+		$('#la-pontos').text('..');
+	} else {
+		$('#la-pontos').text('...');
+	}
+
+	if( $('#play-cnt').hasClass('off') ){
+		setTimeout( editarpontos, 500 );		
+	}
+}
+
+$(document).ready(function() {
+	setTimeout( editarpontos, 500 );
+});
+
+</script>
+
+</body>
+
+</html>
